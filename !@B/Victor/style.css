@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #F7D039;
+    --bgcolor: #212121;
+    --text-white: #fff;
+}
+.white-theme {
+    --bgcolor: #fff;
+    --text-white: #000;
+    --bgcolor: #fff
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E9EBEC;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: var(--bgcolor);
+}
+.content {
+    padding-top: 33px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Profile {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 65px;
+}
+.pro-pic{
+    /* background-color: #F7D039; */
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro-pic img {
+    border: 7px white solid;
+    border-radius: 50%;
+}
+.pro-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--text-white);
+}
+.fact {
+    width: 148px;
+    text-align: center;
+}
+.facts {
+    display: flex;
+    gap: 45px;
+    margin-top: 50px;
+    color: var(--text-white);
+}
+.font24 {
+    font-size: 24px;
+}
+.font22 {
+    font-size: 22px
+}
+.cv {
+    background-color: #fbd144;
+    display: flex;
+    gap: 15px;
+    padding: 24px 42px;
+    border-radius: 10px;
+    margin-top: 48px;
+}
+.contact {
+    background-color: white;
+    padding: 24px 72.5px;
+    border-radius: 10px;
+    margin-top: 48px;
+}
+.pro-buttons {
+    display: flex;
+    gap: 38px;
+}
+.detail-Info {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 24px;
+    display: flex;
+    margin-top: 75px;
+    width: 760px;
+    color: var(--text-white);
+}
+.portfolio {
+    background-color: #D7D7D7;
+    padding: 24px 0px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+.skills {
+    padding: 24px 0px ;
+    padding-left: 80px;
+    width: 285px;
+    text-align: center;    
+}
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 757px;
+    height: 826px;
+    gap: 32px;
+    margin-top: 65px;
+}
+
+h4 {
+    margin-top: 70px;
+}
+
+#theme {
+    cursor: pointer;
+}
